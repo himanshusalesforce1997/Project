@@ -7,11 +7,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1 id="Demo1">My First Web Page</h1>
+    <h2>My First Web Page</h2>
     <button
       type="button"
       onclick="document.getElementById('demo').innerHTML = Date()"
     >
       Click me to display Date and Time.
+    </button>
+
+    <button
+      type="button"
+      onclick="
+        document.getElementById('Demo1').innerHTML =
+          'My First Web Page is Edited'
+      "
+    >
+      Click me to change heading.
     </button>
     <p id="demo"></p>
   </body>
